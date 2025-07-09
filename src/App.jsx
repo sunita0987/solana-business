@@ -7,10 +7,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+import Tokenomics from "./Pages/Tokenomics";
+import Roadmap from "./Pages/Roadmap";
+import Contact from "./Pages/Contact";
 // const Home  = () => <div className="p-10"> Home</div>
 // const About = () => <div className="p-10">About Us</div>;
-const Tokenomics = () => <div className="p-10">Tokenomics</div>;
-const Roadmap = () => <div className="p-10">Roadmap</div>;
+// const Tokenomics = () => <div className="p-10">Tokenomics</div>;
+// const Roadmap = () => <div className="p-10">Roadmap</div>;
 const Contact = () => <div className="p-10">Contact</div>;
 
 function App() {
