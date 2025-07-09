@@ -10,11 +10,13 @@ import About from "./Pages/About";
 import Tokenomics from "./Pages/Tokenomics";
 import Roadmap from "./Pages/Roadmap";
 import Contact from "./Pages/Contact";
+import Team from "./Pages/Team";
+import Footer from "./components/Footer";
 // const Home  = () => <div className="p-10"> Home</div>
 // const About = () => <div className="p-10">About Us</div>;
 // const Tokenomics = () => <div className="p-10">Tokenomics</div>;
 // const Roadmap = () => <div className="p-10">Roadmap</div>;
-const Contact = () => <div className="p-10">Contact</div>;
+// const Contact = () => <div className="p-10">Contact</div>;
 
 function App() {
   return (
@@ -26,7 +28,9 @@ function App() {
         <Route path="/tokenomics" element={<Tokenomics />}/>
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/team" element={<Team />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }

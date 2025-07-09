@@ -53,12 +53,23 @@ const Navbar = () => {
           >
             Contact
           </NavLink>
+           <NavLink
+            to="/team"
+            className={({ isActive }) =>
+              `${linkClass} ${isActive ? activeClass : ""}`
+            }
+          >
+            Team
+          </NavLink>
+
+
+
         </div>
         <button className="bg-[#FFFFFF] text-[#F4241E]  px-4 py-1 rounded hover:bg-[#f4241e] hover:text-[#ffffff] text-sm font-medium mr-60 cursor-pointer">
           Connect Wallet
         </button>
       </div>
-      
+
     </nav>
   );
 };
